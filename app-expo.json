@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "SmartProf Hansraj",
+    "slug": "smartprof-hansraj",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fce4ec"
+    },
+    "ios": {
+      "supportsTabletMode": true,
+      "bundleIdentifier": "com.smartprof.hansraj"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#fce4ec"
+      },
+      "package": "com.smartprof.hansraj",
+      "minSdkVersion": 21,
+      "targetSdkVersion": 34
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true,
+            "compileSdkVersion": 34,
+            "targetSdkVersion": 34,
+            "buildToolsVersion": "34.0.0"
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "your-project-id"
+      }
+    }
+  }
+}

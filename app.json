@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "SmartProf Hansraj",
+    "slug": "hansraj-mod",
+    "version": "1.0.0",
+    "extra": {
+      "eas": {
+        "projectId": "c5101fa3-9c1f-4069-a574-3fb3b22b0d5c"
+      }
+    },
+    "cli": {
+      "appVersionSource": "remote"
+    }
+  }
+}
